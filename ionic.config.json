@@ -1,0 +1,7 @@
+{
+  "name": "flickor",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
