@@ -1,5 +1,11 @@
-{
-    "fotografias": [
+import { Injectable } from '@angular/core';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class ServCatalogoService {
+
+  fotos=[
         {
             "id": 1,
             "titulo": "Mudanza",
@@ -111,4 +117,10 @@
             "ruta": "./assets/fotos/10escocesesenitalica.jpeg"
         }
     ]
+
+  constructor() { }
+
+  getAll(){
+    return this.fotos;
+  } 
 }
